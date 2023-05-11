@@ -16,6 +16,9 @@ class ListsController < ApplicationController
   end
 
   def show
+    @list = List.find(params[:id])
+    List.find(1)
+    List.find(2)
   end
 
   def edit
